@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 ## Carrega o arquivo
-df = pd.read_excel('Raw\tabela7752_produção naiconal.xlsx')
+df = pd.read_excel('Raw\tabela7752_produção nacional.xlsx')
 
 ## Separa o que vem antes do ".", deixando só o número do mês
 df['Mês'] = df['Mês'].astype(str).str.split('.').str[0]

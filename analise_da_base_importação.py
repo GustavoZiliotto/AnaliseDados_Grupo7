@@ -15,6 +15,6 @@ df['Categoria'] = np.where(
 )
 
 
-df.to_excel('V_IMPORTACAO_GERAL_PROCESSADO.xlsx', index=False)
+df.to_excel('Treated_Importacao.xlsx', index=False)
 
 print("Novo arquivo gerado com sucesso!")
